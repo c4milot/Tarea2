@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class PanelPrincipal extends JPanel {
+
     private PanelComprador com;
     private PanelExpendedor exp;
     public PanelPrincipal(){
