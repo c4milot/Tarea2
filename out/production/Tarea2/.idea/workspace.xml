@@ -5,28 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a09271-f59a-49fc-8002-bc6de719be47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CocaCola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Comprador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DepositoB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DepositoD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DepositoM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dulce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expendedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Moneda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Moneda100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Moneda1000.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Moneda1500.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Moneda500.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoHayProductoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PagoIncorrectoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PagoInsuficienteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Snickers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sprite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Super8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ventana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bebida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PanelComprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/PanelComprador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PanelExpendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/PanelExpendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/PanelPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tarea2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tarea2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pc/Desktop/Tarea2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Pc/Downloads/Tarea2-main (1)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Pc\Desktop\Tarea2" />

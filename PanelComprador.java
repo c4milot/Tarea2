@@ -1,10 +1,12 @@
+import javax.swing.*;
 import java.awt.*;
 
-public class PanelComprador {
-    public void PanelComprador(){
+class PanelComprador extends JPanel {
+    JButton boton2;
 
-    }
-    public void paint(Graphics g){
-
+    public PanelComprador(){
+        setBackground(Color.white);
+        boton2 = new JButton("Boton");
+        add(boton2);
     }
 }
