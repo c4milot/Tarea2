@@ -1,3 +1,4 @@
+package tarea;
 /**
  * Clase abstracta de Dulce que solo funciona como intermediario entre Producto y el dulce elegido
  * Contiene un metodo consumir que guardaria el dulce que se consume como String

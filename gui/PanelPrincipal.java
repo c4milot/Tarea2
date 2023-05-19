@@ -1,3 +1,7 @@
+package gui;
+
+import gui.PanelExpendedor;
+
 import javax.swing.*;
 import java.awt.*;
 

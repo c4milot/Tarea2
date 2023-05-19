@@ -1,3 +1,4 @@
+package tarea;
 /**
  * Esta clase se encarga de "juntar" las clases Dulce y Bebida en una sola, para trabajar solo con Producto
  */

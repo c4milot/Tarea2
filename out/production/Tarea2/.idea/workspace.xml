@@ -5,12 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a09271-f59a-49fc-8002-bc6de719be47" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PanelComprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/PanelComprador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PanelExpendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/PanelExpendedor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/PanelPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ventana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tarea2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tarea2/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Bebida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CocaCola.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/CocaCola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Comprador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositoB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/DepositoB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositoD.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/DepositoD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositoM.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/DepositoM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dulce.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Dulce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Expendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Moneda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moneda100.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Moneda100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moneda1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Moneda1000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moneda1500.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Moneda1500.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moneda500.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Moneda500.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoHayProductoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/NoHayProductoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PagoIncorrectoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/PagoIncorrectoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PagoInsuficienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/PagoInsuficienteException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PanelDepositos.java" beforeDir="false" afterPath="$PROJECT_DIR$/PanelDepositos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PanelExpendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/PanelExpendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/PanelPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snickers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Snickers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Super8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea/Super8.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +47,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +68,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+<<<<<<< Updated upstream
     "last_opened_file_path": "C:/Users/Pc/Downloads/Tarea2-main (1)"
+=======
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Pc/IdeaProjects"
+>>>>>>> Stashed changes
   }
 }]]></component>
   <component name="RecentsManager">

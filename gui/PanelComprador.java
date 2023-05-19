@@ -1,4 +1,7 @@
+package gui;
 import javax.swing.*;
+
+
 import java.awt.*;
 
 class PanelComprador extends JPanel {

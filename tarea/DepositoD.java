@@ -1,3 +1,4 @@
+package tarea;
 import java.util.ArrayList;
 /**
  * Deposito que almacenara dulces mediante un arraylist
