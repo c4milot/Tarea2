@@ -1,3 +1,5 @@
+package gui;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -11,6 +13,7 @@ public class Ventana extends JFrame {
         this.add(dp, BorderLayout.CENTER);
         setSize(1920,1080);
         setTitle("Ventana");
+        setBackground(Color.green);
         setLocationRelativeTo(null);
         setVisible(true);
 

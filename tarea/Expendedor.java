@@ -1,3 +1,4 @@
+package tarea;
 /**
  * Crea y almacena las variables a utilizar, Expendedor se encarga de almacenar y suministrar productos y monedas
  */
@@ -16,6 +17,7 @@ public class Expendedor{
     public static final int  SNICKERS=3;
     public static final int  SUPER8=4;
     DepositoM monVu = new DepositoM();
+    DepositoM monCompra = new DepositoM(); //nuevo deposito comprador
 
     /**
      * Metodo constructor, se encarga de crear y almacenar los productos, y definir los precios de cada uno
@@ -71,6 +73,7 @@ public class Expendedor{
                             Moneda mon1 = new Moneda100();
                             monVu.addMoneda(mon1);
                         }
+                        monCompra.addMoneda(mon);
                     }else {
                         Moneda mon1 = mon;
                         monVu.addMoneda(mon1);
@@ -97,6 +100,7 @@ public class Expendedor{
                             Moneda mon1 = new Moneda100();
                             monVu.addMoneda(mon1);
                         }
+                        monCompra.addMoneda(mon);
                     }else {
                         Moneda mon1 = mon;
                         monVu.addMoneda(mon1);

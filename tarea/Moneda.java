@@ -1,3 +1,4 @@
+package tarea;
 /**
  * Esta clase se encargara de crear y entregar informacion de una variable tipo Moneda
  */

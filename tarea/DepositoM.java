@@ -1,3 +1,4 @@
+package tarea;
 import java.util.ArrayList;
 /**
  * Deposito que almacenara monedas mediante un arraylist

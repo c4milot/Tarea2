@@ -1,6 +1,7 @@
-public class Moneda1500 extends Moneda{
-    private int valmon=1500;
-    public Moneda1500(){
+package tarea;
+public class Moneda500 extends Moneda{
+    private int valmon=500;
+    public Moneda500(){
         super();
     }
     public int getValor(){

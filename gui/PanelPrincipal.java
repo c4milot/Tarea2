@@ -1,18 +1,20 @@
+package gui;
+
+import gui.PanelExpendedor;
+
 import javax.swing.*;
 import java.awt.*;
 
-public class PanelPrincipal extends JPanel {
 
+class PanelPrincipal extends JPanel {
     private PanelComprador com;
     private PanelExpendedor exp;
+
     public PanelPrincipal(){
+        setLayout(new GridLayout(1, 2)); // 2 filas, 1 columna
         exp = new PanelExpendedor();
+        add(exp);
         com = new PanelComprador();
-        this.setBackground(Color.white);
-    }
-    public void paint(Graphics g){
-        super.paint(g);
-        com.paint(g);
-        exp.paint(g);
+        add(com);
     }
 }
