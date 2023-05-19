@@ -5,6 +5,7 @@ import javax.swing.JPanel;
 
 public class PanelExpendedor extends JPanel {
     public void PanelExpendedor() {
+
         JRadioButton rB1 = new JRadioButton("Verde");
     }
 
