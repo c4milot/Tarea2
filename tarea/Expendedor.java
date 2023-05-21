@@ -131,7 +131,6 @@ public class Expendedor{
         Moneda m = monVu.getMoneda();
         return m;
     }
-
     public Producto getProducto(){
         return p;
     }
