@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class Ventana extends JFrame {
     private PanelPrincipal dp;//un panel para objetos gráficos
-    //private PanelBotones bp;//un panel para objetos gráficos
+
 
     public Ventana(){
         super();

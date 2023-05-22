@@ -1,23 +1,27 @@
 package gui;
 
+import tarea.*;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.*;
 import javax.swing.JPanel;
 import java.awt.BorderLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class PanelExpendedor extends JPanel {
     private JPanel selectorPanel;
     private PanelDepositoProductos productos;
     private JButton boton1, boton2, boton3, boton4;
 
-    public PanelExpendedor() {
+    private Inicializar nuevo;
+
+    public PanelExpendedor(Inicializar inicio) {
         // Crear el panel de la Máquina Expendedora
         productos = new PanelDepositoProductos();
  productos.setPreferredSize(new Dimension(200, 200));
         productos.setBackground(Color.ORANGE);
-
-
 
         // Crear el panel del Selector
         selectorPanel = new JPanel();
@@ -50,11 +54,88 @@ public class PanelExpendedor extends JPanel {
         boton3.setBackground(Color.blue);
         boton4.setBackground(Color.yellow);
 
+        //Se agrega funcionalidad a los botones
+        boton1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                inicio.setEleccionProducto(1);
+                try {
+                    Comprador com = inicio.setCom();
+                    System.out.println(inicio.getExp().getProducto());
+                } catch (NoHayProductoException ex) {
+                    throw new RuntimeException(ex);
+                } catch (PagoInsuficienteException ex) {
+                    throw new RuntimeException(ex);
+                } catch (PagoIncorrectoException ex) {
+                    throw new RuntimeException(ex);
+                }
+
+                PanelDepositoProductos producto = new PanelDepositoProductos();
+                
+                repaint();
+            }
+        });
+
+        boton2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                inicio.setEleccionProducto(2);
+                try {
+                    Comprador com = inicio.setCom();
+                    System.out.println(inicio.getExp().getProducto());
+                } catch (NoHayProductoException ex) {
+                    throw new RuntimeException(ex);
+                } catch (PagoInsuficienteException ex) {
+                    throw new RuntimeException(ex);
+                } catch (PagoIncorrectoException ex) {
+                    throw new RuntimeException(ex);
+                }
+                repaint();
+            }
+        });
+
+        boton3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                inicio.setEleccionProducto(3);
+                try {
+                    Comprador com = inicio.setCom();
+                    System.out.println(inicio.getExp().getProducto());
+                } catch (NoHayProductoException ex) {
+                    throw new RuntimeException(ex);
+                } catch (PagoInsuficienteException ex) {
+                    throw new RuntimeException(ex);
+                } catch (PagoIncorrectoException ex) {
+                    throw new RuntimeException(ex);
+                }
+                repaint();
+            }
+        });
+        boton4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                inicio.setEleccionProducto(4);
+                try {
+                    Comprador com = inicio.setCom();
+                    System.out.println(inicio.getExp().getProducto());
+                } catch (NoHayProductoException ex) {
+                    throw new RuntimeException(ex);
+                } catch (PagoInsuficienteException ex) {
+                    throw new RuntimeException(ex);
+                } catch (PagoIncorrectoException ex) {
+                    throw new RuntimeException(ex);
+                }
+                repaint();
+
+            }
+        });
+
 
         // Crear el panel principal y agregar los paneles
         setLayout(new BorderLayout());
         add(productos, BorderLayout.CENTER);
         add(selectorPanel, BorderLayout.LINE_END);
+
     }
 
     public void paint(Graphics g) {

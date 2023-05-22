@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5a09271-f59a-49fc-8002-bc6de719be47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gui/Moneda500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui/coca_cola.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comprador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PanelDepositoMonedas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PanelDepositoProductos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PanelDepositos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/PanelComprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/PanelComprador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/PanelDepositoMonedas.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/PanelDepositoMonedas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/PanelExpendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/PanelExpendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/PanelPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tarea2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tarea2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarea/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/tarea/Expendedor.java" afterDir="false" />
-    </list>
+    <list default="true" id="f5a09271-f59a-49fc-8002-bc6de719be47" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +47,7 @@
       <recent name="C:\Users\Pc\Desktop\Tarea2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainFrame">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Tarea2" />
@@ -83,8 +70,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainFrame" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -101,5 +88,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gui/PanelComprador.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
